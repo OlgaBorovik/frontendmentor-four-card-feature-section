@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,30 +18,66 @@
   </style>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
+  <div class="container">
+    <h1 class="feature__title">
+      Reliable, efficient delivery<span>Powered by Technology</span>
+    </h1>
+    <p class="feature__text">
+      Our Artificial Intelligence powered tools use millions of project data points 
   to ensure that your project is successful
+    </p>
+    <ul class="feature__list">
+      <li class="feature__item">
+        <h3 class="item__title">
+Supervisor
+        </h3>
+        <p class="item__text">
+Monitors activity to identify project roadblocks
+        </p>
+        <svg class="item__icon">
+          <use href="./images/symbol-defs.svg#icon-calculator"></use>
+        </svg>
+      </li>
+      <li class="feature__item">
+        <h3 class="item__title">
+          Team Builder
+        </h3>
+        <p class="item__text">
+          Scans our talent network to create the optimal team for your project
+        </p>
+      </li>
+      <li class="feature__item">
+        <h3 class="item__title">
+Karma
+        </h3>
+        <p class="item__text">
+Regularly evaluates our talent to ensure quality
+        </p>
+      </li>
+      <li class="feature__item">
+        <h3 class="item__title">
+Calculator
+        </h3>
+        <p class="item__text">
+Uses data from past projects to provide better delivery estimates
+        </p>
+      </li>
+    </ul>
+   
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+  
+  
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+  
+  
+  </div>
+  
 
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/OlgaBorovik">Olga Borovik</a>.
     </p>
   </footer>
 </body>

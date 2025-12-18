@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.81rem;
+    background-color: var(--white);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+:root{
+--white: #fff;
+--primaryText: #6A7178;
+--secondaryText: #4D4F62;
+--accentRed:#EA5454;
+--accentCyan: #44D3D2;
+--accentBlue:#549EF2;
+--accentOrange: #FCAE4A;
+}
+
+.container{
+    max-width: 314px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-block-start: 3.5rem;
+    margin-block-end: 3rem;
+}
+
+.feature__title{
+    color: var(--secondaryText);
+        font-size: 1.5rem;
+        font-weight: 275;
+        line-height: 1.4;
+        letter-spacing: 0.25px;
+        text-align: center;
+        margin-bottom: 1rem;
+}
+
+.feature__title span{
+        font-weight: 400;
+}
+
+.feature__text{
+    color: var(--secondaryText);
+        font-size: 0.94rem;
+        line-height: 1.4;
+        letter-spacing: 0.1px;
+        text-align: center;
+        margin-bottom: 3.62rem;
+}
+
+.feature__list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.feature__item {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    height: 15.62rem;
+}
+
+.feature__item--cyan{
+ border-top: 4px solid var(--accentCyan);
+
+}
+.feature__item--red{
+border-top: 4px solid var(--accentRed);
+}
+.feature__item--orange{
+border-top: 4px solid var(--accentOrange);
+}
+.feature__item--blue{
+border-top: 4px solid var(--accentBlue);
+}
+
+.item__title {
+color: var(--secondaryText);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 6px;
+    
+}
+.item__text {
+color: var(--primaryText);
+    line-height: 1.6;
+    letter-spacing: 0.09px;
+    margin-bottom: 32px;
+   
+}
+.item__icon {
+    margin-left: auto;
+}
